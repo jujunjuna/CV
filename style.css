@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    font-family: system-ui;
+}
+
+.main {
+    height: 1150;
+    width: 800px;
+    background: white;
+    box-shadow: 5px 7px 15px 5p  #b9b6b6;
+    margin: 20px auto;
+    
+
+}
+
+.atas{
+    width: 800px;
+    background-color: #F0F8FF ;
+    display: flex;
+}
+.keterangan {
+    
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    padding-top: 100px;
+}
+.foto{
+    width: 200px;
+    height: 300px;
+    
+}
+.nama {
+    
+    background-color: #696969;
+    text-align: center;
+    margin-top: -22px;
+
+}
+
+.bawah {
+    display: flex;
+}
+.pendidikan {
+    width: 200px;
+    height: 600px;
+    background-color: #F0F8FF;
+    margin-top: -22px;
+    text-align: center;
+    padding-top: 30px;
+}
+.pengalaman {
+    text-align: start;
+    padding-left: 30px;
+    background-color: #DCDCDC;
+    margin-top: -22px;
+    width: 65%;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.garis {
+    color: black;
+    size: 20px;
+}
