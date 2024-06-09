@@ -1,0 +1,72 @@
+/* Aturan untuk layar dengan lebar maksimum 600px */
+@media only screen and (max-width: 600px) {
+    .main {
+
+        margin: 0 auto;
+    }
+    .foto {
+        padding-top: 30px;
+    }
+
+    .atas {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .keterangan {
+        margin-top: 20px;
+    }
+
+    .nama {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bawah {
+        flex-direction: column;
+        margin: 0;
+        height: max-content;
+
+    }
+
+    /* Menghilangkan gaya default dan mengganti dengan karakter kosong */
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        /* Optional: menghilangkan padding bawaan */
+    }
+
+    
+    }
+
+
+
+.pendidikan,
+.pengalaman {
+
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+/* Aturan untuk layar dengan lebar maksimum 400px */
+@media only screen and (max-width: 400px) {
+    .nama h1 {
+        font-size: 24px;
+    }
+
+    .keterangan p {
+        font-size: 14px;
+    }
+
+    .pendidikan h3,
+    .pengalaman h3 {
+        font-size: 16px;
+    }
+
+    .pendidikan p,
+    .pengalaman p {
+        font-size: 14px;
+    }
+}
